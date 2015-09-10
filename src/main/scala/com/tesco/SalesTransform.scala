@@ -48,6 +48,8 @@ case class Sale (customerId : String, // Unique customer identifier
 
 /**
  * Data Engineer Test
+ *
+ * This job will read the input files and transform the data to the desired output format (Sale case class) and write the results out *
  */
 object SalesTransform {
 
