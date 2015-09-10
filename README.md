@@ -8,7 +8,7 @@
 4. Navigate to src/main/scala/com/test/SalesTransform.scala
 5. Your job is to finish the implementation of this file
 6. Implement the main function to read all data files in and transform them in RDD's of the case classes
-7. The customer data of birth of has come from many systems. You need to clean this the DOB. You can assume that the examples in customer.tsv contain all the cases of formats of DOB.
+7. The customer data of birth of has come from many systems. You need to clean the DOB. You can assume that the examples in customer.tsv contain all the cases of formats of DOB.
 8. Implement transformData to transform the data into Sale case class
 9. Write the Sale RDD to a Parquet file
 10. Return your final code to us as a zip file, along with any instructions on how to build. Please do not upload your code to a public Git Repo
@@ -21,3 +21,4 @@
 * Add any additional libraries you want to use
 * If you make any assumptions, please comment about them in your code
 * Example TSV files are included under resources. You can assume the columns and ordering of the case classes correspond exactly to the TSV's
+* The POM contains suggested target Java, Scala and Spark versions. You may change these to suit your setup.
