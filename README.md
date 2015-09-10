@@ -11,6 +11,7 @@
 7. The customer data of birth of has come from many systems. You need to clean this the DOB. You can assume that the examples in customer.tsv contain all the cases of formats of DOB.
 8. Implement transformData to transform the data into Sale case class
 9. Write the Sale RDD to a Parquet file
+10. Return your final code to us as a zip file, along with any instructions on how to build. Please do not upload your code to a public Git Repo
 
 ## General Instructions
 
