@@ -5,7 +5,7 @@
 1. Clone the repository
 2. You will find some example input files under src/main/resources. All input files are TSV files.
 3. The file src/main/resources/sale.tsv provides some examples of output you can use as test cases.
-4. Navigate to src/main/scala/com/test/SalesTransform.scala
+4. Navigate to src/main/scala/com/tesco/SalesTransform.scala
 5. Your job is to finish the implementation of this file
 6. Implement the main function to read all data files in and transform them in RDD's of the case classes
 7. The customer data of birth of has come from many systems. You need to clean the DOB. You can assume that the examples in customer.tsv contain all the cases of formats of DOB.
