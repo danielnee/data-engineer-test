@@ -53,7 +53,7 @@ case class Sale (customerId : String, // Unique customer identifier
  */
 object SalesTransform {
 
-  def transformData(customer : RDD[Customer], header : RDD[Transaction], promotions : RDD[Promotion], line : RDD[Line]) : RDD[Sale] = {
+  def transformData(customer : RDD[Customer], transaction: RDD[Transaction], promotions : RDD[Promotion], line : RDD[Line]) : RDD[Sale] = {
     // You should remove these 3 lines and implement the function
     // They are just there to make the code compile
     val conf = new SparkConf().setAppName("Data Engineer Test") // STUB
@@ -73,7 +73,7 @@ object SalesTransform {
     // The DOB of customers has been sourced from multiple systems and is in different formats
     // You should clean this
 
-    // Header data is located in HDFS under /tesco/header
+    // Transaction data is located in HDFS under /tesco/transaction
 
     // Promotion data is located in HDFS under /tesco/promotion
 
