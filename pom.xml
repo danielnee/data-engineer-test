@@ -5,11 +5,11 @@
     <artifactId>data-engineer-test</artifactId>
     <version>1.0</version>
     <properties>
-        <cdh.version>5.4.2</cdh.version>
+        <cdh.version>5.5.1</cdh.version>
         <java.version>1.7</java.version>
         <scala.major.version>2.10</scala.major.version>
         <scala.version>${scala.major.version}.4</scala.version>
-        <spark.version>1.3.0-cdh${cdh.version}</spark.version>
+        <spark.version>1.5.0-cdh${cdh.version}</spark.version>
     </properties>
 
     <repositories>
